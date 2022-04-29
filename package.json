@@ -1,0 +1,33 @@
+{
+  "name": "whitewolf-d10-roller",
+  "version": "1.0.0",
+  "description": "customizable whitewolf d10 dice roller",
+  "homepage": "https://github.com/danielpanzer/whitewolf-d10-roller",
+  "author": {
+    "name": "Daniel Panzer",
+    "email": "daniel@cruxcode.nyc",
+    "url": ""
+  },
+  "main": "whitewolf-d10-roller.js",
+  "keywords": [
+    "discord",
+    "bot",
+    "dice",
+    "gaming",
+    "d10",
+    "exalted",
+    "whitewolf"
+  ],
+  "scripts": {
+    "start": "node whitewolf-d10-roller.js"
+  },
+  "repository": "git@github.com:danielpanzer/whitewolf-d10-roller.git",
+  "license": "MIT",
+  "dependencies": {
+    "clapp": "^1.1.1",
+    "discord.js": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
