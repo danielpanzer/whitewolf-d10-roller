@@ -19,7 +19,8 @@
     "whitewolf"
   ],
   "scripts": {
-    "start": "node whitewolf-d10-roller.js"
+    "start": "node whitewolf-d10-roller.js",
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'tests/**/*.ts'"
   },
   "repository": "git@github.com:danielpanzer/whitewolf-d10-roller.git",
   "license": "MIT",
@@ -28,6 +29,11 @@
     "discord.js": "^11.0.0"
   },
   "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   }
 }

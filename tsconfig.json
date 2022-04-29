@@ -1,4 +1,9 @@
 {
+   "exclude": [
+     "./tests/",
+     "./node_modules/",
+     "./dist/"
+   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
