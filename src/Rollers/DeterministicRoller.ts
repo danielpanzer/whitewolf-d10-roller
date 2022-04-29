@@ -1,7 +1,7 @@
-import { Roller } from './roller';
-import { Face } from '../Models/die'
-import { Roll } from '../Models/roll'
-import { Modifier } from '../Modifiers/modifier'
+import { Roller } from './Roller';
+import { Face } from '../Models/Die'
+import { Roll } from '../Models/Roll'
+import { Modifier } from '../Modifiers/Modifier'
 
 export class DeterministicRoller implements Roller {
 

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { DeterministicRoller } from '../src/Rollers/DeterministicRoller';
-import { Face } from '../src/Models/die'
+import { Face } from '../src/Models/Die'
 
 describe('DeterministicRoller', () => {
 

@@ -1,4 +1,4 @@
-import { Die, Face } from './die'
+import { Die, Face } from './Die'
 
 export type Roll = {
   dice: Die[];
